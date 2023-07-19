@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #057B74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.logo img {
+    width: 50px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    font-size: 20px;
+
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.made-by {
+    font-size: 14px;
+    color: #fff;
+    margin-left: auto;
+}
+
+.chat-container {
+    height: 70%;
+    max-height: 600px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#chat-log {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+.message-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.user-message {
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bot-message {
+    background-color: #045a54;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.user-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-btn {
+    padding: 10px 20px;
+    background-color: #045a54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #098a81;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
+    color: #000;
+}
